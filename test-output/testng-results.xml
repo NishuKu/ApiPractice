@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=== Connection Successfully====]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_1405]]>
+    </line>
+    <line>
+      <![CDATA[====connection closed====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2653" started-at="2022-08-11T11:33:37 IST" finished-at="2022-08-11T11:33:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2653" started-at="2022-08-11T11:33:37 IST" finished-at="2022-08-11T11:33:40 IST">
+      <class name="EndToEndSceranio.CreateProjectVerifyInData">
+        <test-method status="PASS" signature="bsConfig()[pri:0, instance:EndToEndSceranio.CreateProjectVerifyInData@50d0686]" name="bsConfig" is-config="true" duration-ms="737" started-at="2022-08-11T11:33:36 IST" finished-at="2022-08-11T11:33:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[=== Connection Successfully====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method status="PASS" signature="createProjectVerifyInData()[pri:0, instance:EndToEndSceranio.CreateProjectVerifyInData@50d0686]" name="createProjectVerifyInData" duration-ms="2610" started-at="2022-08-11T11:33:37 IST" finished-at="2022-08-11T11:33:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_1405]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProjectVerifyInData -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:EndToEndSceranio.CreateProjectVerifyInData@50d0686]" name="asConfig" is-config="true" duration-ms="11" started-at="2022-08-11T11:33:40 IST" finished-at="2022-08-11T11:33:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[====connection closed====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- EndToEndSceranio.CreateProjectVerifyInData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
