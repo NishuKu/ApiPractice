@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EndToEndSceranio.CreateProjectVerifyInData">
+      <class name="BrokenLink.GridExcecution">
         <methods>
-          <include name="createProjectVerifyInData"/>
-          <include name="bsConfig"/>
-          <include name="asConfig"/>
+          <include name="grodExecution"/>
         </methods>
-      </class> <!-- EndToEndSceranio.CreateProjectVerifyInData -->
+      </class> <!-- BrokenLink.GridExcecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
